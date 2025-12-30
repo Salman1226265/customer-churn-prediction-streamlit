@@ -68,6 +68,6 @@ if st.button("Predict Churn"):
         )
     else:
         st.success(
-            f"Customer is unlikely to churn ✅ "
+            f"Customer will not churn ✅ "
             f"(Probability: {prediction_proba[0] * 100:.2f}%)"
         )
